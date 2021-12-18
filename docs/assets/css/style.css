@@ -125,6 +125,7 @@ header nav ul li a {
 /*ABOUT ME STYLE END*/
 
 /*MY WORK STYLE START*/
+
 .my-work h2 {
     font-weight: bold;
     font-size: 36px;
@@ -133,6 +134,55 @@ header nav ul li a {
     padding: 0 35px 34px;
 }
 
+.my-works {
+  height: auto;
+  width: 80px;
+  padding: 10px;
+  display: contents;
+
+}
+
+
+#work {
+  display: flex;
+}
+
+.work-1 {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(234, 235, 238, .4);
+  margin: 0 10px 20px;
+  padding: 10px;
+}
+
+.work-2, .work-3 {
+  height: 150px;
+  width: 300px;
+  background-color: rgba(234, 235, 238, .4);
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.work-1:hover, .work-2:hover, .work-3:hover {
+  background-color: rgba(234, 235, 238, .9);
+}
+.work-1 p {
+  position: relative;
+  top: 259px;
+  overflow: auto;
+  width: 40%;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.work-2 p, .work-3 p {
+  position: relative;
+  top: 96px;
+  overflow: auto;
+  width: 70%;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
 
 /*MY WORK STYLE END*/
 
