@@ -154,16 +154,28 @@ header nav ul li a {
   height: 300px;
   width: 300px;
   background-image: url(../images/Wolf.JPG);
-  background-position-x: -398px;
-  background-position-y: -267px;
+  background-position-x: -656px;
+  background-position-y: -321px;
+  background-size: 182%;
   margin: 0 10px 20px;
   padding: 10px;
   border-radius: 15px;
   
 }
 
+.work-2 {
+  height: 130px;
+  width: 300px;
+  background-image: url(../images/Crypto.jpg);
+  background-position-x: 22px;
+  background-position-y: -176px;
+  background-size: 114%;
+  margin: 0 10px 40px;
+  padding: 10px;
+  border-radius: 15px;
+}
 
-.work-2, .work-3 {
+.work-3 {
   height: 130px;
   width: 300px;
   background-color: rgba(234, 235, 238, .4);
